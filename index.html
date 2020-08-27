@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head section where we define page metadata and reference CSS style -->
+
+<head>
+
+    <!-- Page title displayed in browser titlebar and search engines -->
+    <title>The UX Conference</title>
+
+    <!-- Below makes our page mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Section for CSS -->
+    <!-- Reference to Bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Reference to our stylesheet -->
+    <link rel="stylesheet" href="css/final.css">
+
+    <!-- Reference to Google Fonts stylesheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,italic">
+
+    <!-- Reference to our icons font stylesheet -->
+    <link rel="stylesheet" href="css/icons.css">
+
+</head>
+
+<!-- Body section where we add content -->
+
+<body>
+
+    <header>
+        <h1>The UX Conference</h1>
+
+        <h2>Bringing designers and researchers together</h2>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <a href="#tickets" class="btn-primary col-10 col-md-3">Book tickets<i class="icon-tickets"></i></a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="talk col-10 col-md-5">
+                <!-- Link opens talk details popover -->
+                <a data-toggle="modal" data-target="#popover">
+
+                    <div class="row">
+                        <!-- Speaker photo -->
+                        <img class="photo img-fluid col-auto pr-0" src="images/photo-andreas-olsson.jpg">
+
+                        <div class="col-auto">
+                            <!-- Talk time -->
+                            <div class="time">10:00&ndash;11:00</div>
+
+                            <!-- Talk title -->
+                            <h3 class="title">Eye tracking</h3>
+
+                            <!-- Talk speaker -->
+                            <div class="speaker">Andreas Olsson</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="talk col-10 col-md-5">
+                <div class="row">
+                    <img class="photo img-fluid col-auto pr-0" src="images/photo-nathalie-ek.jpg">
+                    <div class="col-auto">
+                        <div class="time">11:00&ndash;12:00</div>
+                        <h3 class="title">UX in Gaming</h3>
+                        <div class="speaker">Nathalie Ek</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="talk col-10 col-md-5">
+                <div class="row">
+                    <img class="photo img-fluid col-auto pr-0" src="images/photo-marc-paulina.jpg">
+                    <div class="col-auto">
+                        <div class="time">13:00&ndash;14:00</div>
+                        <h3 class="title">Conversational UI</h3>
+                        <div class="speaker">Marc Paulina</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="talk col-10 col-md-5">
+                <div class="row">
+                    <img class="photo img-fluid col-auto pr-0" src="images/photo-sarah.jpg">
+                    <div class="col-auto">
+                        <div class="time">14:00&ndash;15:00</div>
+                        <h3 class="title">Don't Stop UX-ing</h3>
+                        <div class="speaker">Sarah Weiler</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Popover with talk details -->
+    <div class="modal fade" id="popover">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <!-- Popover content -->
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="icon-close"></i>
+                    </button>
+
+                    <div class="time">
+                        10:00&ndash;11:00
+                    </div>
+
+                    <h3>
+                        Eye tracking
+                    </h3>
+
+                    <p>
+                        Eye tracking in user research has gained a lot of attention lately, and much due to the fact that the technology has become more accessible. But far too many are using it to gather large chunks of data, without proper research questions.
+                    </p>
+
+                    <p>
+                        In this talk I will talk about how to use eye tracking in user research and how it can bring you extra insights – but also, when not to use it. I will talk about why using it in the wrong way could actually give misleading insights.
+                    </p>
+
+                    <p>
+                        The presentation will also include my personal experience with using eye tracking as a lone UX designer in a small, agile product development team. I will talk about bringing insights to your team and how to involve them in design decisions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section for scripts -->
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+
+</body>
+
+</html>

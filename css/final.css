@@ -1,0 +1,131 @@
+/* ----------------------- */
+/*       Main styles       */
+/* ----------------------- */
+
+/* Global style */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 25px;
+}
+
+header {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    padding: 10%;
+}
+
+/* Heading style */
+h1 {
+    color: #EB6E00;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+
+/* Talk container style */
+.talk {
+    margin: 30px 15px 0 15px;
+    padding: 15px;
+    background: white;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    box-shadow: 0 0 20px darkgrey;
+}
+
+.time {
+    color: darkgray;
+    font-size: 1em;
+}
+
+.speaker {
+    font-style: italic;
+}
+
+.photo {
+    height: 75px;
+}
+
+/* Zoom talk container on hover */
+.talk:hover {
+    transform: scale(1.02);
+    transition: all 0.2s;
+}
+
+
+/* Button style */
+.btn-primary {
+    color: white;
+    background: #EB6E00;
+    
+    border-radius: 50px;
+    border: none;
+    
+    margin: 15px;
+    padding: 10px 25px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+    
+    background: #EB6E00;
+    color: white;    
+}
+
+
+/* ----------------------- */
+/*      Media Queries      */
+/* ----------------------- */
+
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
