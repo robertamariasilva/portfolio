@@ -44,27 +44,26 @@ footer {
 /* Heading styles */
 h1 {
     color: white;
-    font-size: 2.8em;
+    font-size: 3em;
     font-weight: 700;
     text-align: center;
-    text-transform: none;
+    text-transform: uppercase;
     line-height: 0.9em;
-    text-shadow: 0 1px 3px #888;  
+    text-shadow: 0 1px 4px #888;  
     margin: 15px 15px 10px 15px;
 }
 
 h2 {
-    color: #333333;
+    color: #222;
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
-    text-shadow: 0 1px 2px #eee;
+    margin: 0 0 15px 0;
 }
 
 h3 {
-    font-size: 1.4em;
-    font-weight: 900;
-    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
     text-align: center;
     margin: 0 0 15px 0;
 }
@@ -82,7 +81,7 @@ h4 {
     background-size: cover;
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: overlay;
-    margin: 10px;
+    margin: 12px;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px darkgrey;
