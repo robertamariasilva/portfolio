@@ -38,7 +38,6 @@ footer {
 
 .photo {
     border-radius: 1000px;
-    margin: 0 0 15px 0;
 }
 
 /* Heading styles */
@@ -49,7 +48,8 @@ h1 {
     text-align: center;
     text-transform: none;
     line-height: 1em;
-    text-shadow: 0 1px 1px #777;  
+    text-shadow: 0 1px 1px #888;  
+    margin: 15px 0 8px 0;
 }
 
 h2 {
@@ -61,10 +61,10 @@ h2 {
 
 h3 {
     font-size: 1.4em;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 h4 {
@@ -109,7 +109,7 @@ h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     transition: all 0.2s;    
 }
