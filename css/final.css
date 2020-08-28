@@ -10,18 +10,18 @@ body {
 /* Section styles */
 header {
     background-color: #4FBDD2;
-    padding: 7%;
+    padding: 25px 25px;
 }
 
 .projects {
     background-color: white;
-    padding: 50px 15px;
+    padding: 35px 15px;
 }
 
 .about {
     background-color: #333333;
     color: white;
-    padding: 50px 15px;
+    padding: 35px 15px;
 }
 
 footer {
@@ -31,8 +31,7 @@ footer {
 }
 
 .photo {
-    height: 100px;
-    border-radius: 100px;
+    border-radius: 1000px;
     margin: 0 0 15px 0;
 }
 
@@ -42,15 +41,15 @@ h1 {
     font-size: 2.5em;
     font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     line-height: 1em;
-    text-shadow: 0 1px 1px #666;    
+    text-shadow: 0 1px 1px #777;  
 }
 
 h2 {
     color: black;
     font-size: 1.1em;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -59,7 +58,7 @@ h3 {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    margin: 5px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 h4 {
@@ -77,7 +76,6 @@ h4 {
     background-blend-mode: overlay;
     margin: 10px;
     padding: 15px;
-    border: 1px solid darkgrey;
     border-radius: 5px;
     box-shadow: 0 2px 5px darkgrey;
     min-height: 100px;
@@ -101,7 +99,7 @@ h4 {
     border-radius: 50px;
     border: none;
     margin: 20px 0;
-    padding: 10px 25px;
+    padding: 10px 12px;
     text-align: center;
     text-transform: uppercase;
     font-size: 1em;
